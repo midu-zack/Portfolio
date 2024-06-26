@@ -7,7 +7,7 @@ export const projectsData = [
     {
         id: 1,
         name: 'Daxone.shop',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
+        description: "I developed Daxone, an end-to-end E-commerce platform with features like user authentication (OTP and Google), product management, cart functionality, order processing, and user profiles. Built with Bootstrap, Node.js, Express.js, and MongoDB, it includes secure JWT authentication, Razorpay for checkout, and is deployed on AWS EC2 with Nginx for scalability. Chart.js provides detailed business insights through reports and dashboards.",
         tools: ['Express', 'MongoDB', 'Template Engine ', 'AWS ', 'Node Mailer', 'Puppeteer', 'EC2', 'PM2', 'Nginx','cropper js '],
         role: 'Full stack developer',
         code: '',
