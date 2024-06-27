@@ -32,6 +32,9 @@
     "tailwindcss": "latest"
   },
   "main": "next.config.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
