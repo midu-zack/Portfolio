@@ -25,9 +25,10 @@ function AboutSection() {
         <div className="flex justify-center order-1 lg:order-2">
           <Image
             src={personalData.profile}
+            // src="/public/images/WhatsApp Image 2024-09-19 at 11.15.19 AM"
             width={280}
             height={280}
-            alt="Abu Said"
+            alt="miduzack"
             className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
           />
         </div>
