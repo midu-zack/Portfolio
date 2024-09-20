@@ -7,8 +7,8 @@ import azure from '/public/svg/skills/azure.svg';
 import blender from '/public/svg/skills/blender.svg';
 import bootstrap from '/public/svg/skills/bootstrap.svg';
 // import bulma from '/public/svg/skills/bulma.svg';
-// import c from '/public/svg/skills/c.svg';
-// import canva from '/public/svg/skills/canva.svg';
+import c from '/public/svg/skills/c.svg';
+import canva from '/public/svg/skills/canva.svg';
 // import capacitorjs from '/public/svg/skills/capacitorjs.svg';
 // import coffeescript from '/public/svg/skills/coffeescript.svg';
 // import cplusplus from '/public/svg/skills/cplusplus.svg';
@@ -17,12 +17,12 @@ import css from '/public/svg/skills/css.svg';
 import dart from '/public/svg/skills/dart.svg';
 import deno from '/public/svg/skills/deno.svg';
 import django from '/public/svg/skills/django.svg';
-import docker from '/public/svg/skills/docker.svg';
+// import docker from '/public/svg/skills/docker.svg';
 import fastify from '/public/svg/skills/fastify.svg';
 import figma from '/public/svg/skills/figma.svg';
 import firebase from '/public/svg/skills/firebase.svg';
 import flutter from '/public/svg/skills/flutter.svg';
-import gcp from '/public/svg/skills/gcp.svg';
+// import gcp from '/public/svg/skills/gcp.svg';
 import gimp from '/public/svg/skills/gimp.svg';
 import git from '/public/svg/skills/git.svg';
 // import go from '/public/svg/skills/go.svg';
@@ -75,24 +75,24 @@ import vue from '/public/svg/skills/vue.svg';
 // import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 // import webix from '/public/svg/skills/webix.svg';
 // import wolframalpha from '/public/svg/skills/wolframalpha.svg';
-// import wordpress from '/public/svg/skills/wordpress.svg';
+import wordpress from '/public/svg/skills/wordpress.svg';
 
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
-    case 'gcp':
-      return gcp;
+    // case 'gcp':
+    //   return gcp;
     case 'html':
       return html;
     case 'photoshop':
       return photoshop;
-    case 'docker':
-      return docker;
-    case 'illustrator':
-      return illustrator;
-    case 'adobe xd':
-      return adobeXd;
+    // case 'docker':
+    //   return docker;
+    // case 'illustrator':
+    //   return illustrator;
+    // case 'adobe xd':
+    //   return adobeXd;
    
     case 'css':
       return css;
@@ -130,14 +130,14 @@ export const skillsImage = (skill) => {
     //   return postgresql;
     case 'tailwind':
       return tailwind;
-    // case 'NodeJs':
+    // case 'Node JS':
     //   return node;
     // case 'vuetifyjs':
     //   return vuetifyjs;
     // case 'c':
     //   return c;
-    // case 'c++':
-    //   return cplusplus;
+    case 'c++':
+      return cplusplus;
     // case 'c#':
     //   return csharp;
     // case 'dart':
@@ -168,8 +168,8 @@ export const skillsImage = (skill) => {
     //   return deno;
     // case 'django':
     //   return django;
-    // case 'firebase':
-    //   return firebase;
+    case 'firebase':
+      return firebase;
     // case 'gimp':
     //   return gimp;
     case 'git':
@@ -198,8 +198,8 @@ export const skillsImage = (skill) => {
     //   return tensorflow;
     // case 'webix':
     //   return webix;
-    // case 'wordpress':
-    //   return wordpress;
+    case 'wordpress':
+      return wordpress;
     // case 'azure':
     //   return azure;
     // case 'blender':
@@ -216,8 +216,8 @@ export const skillsImage = (skill) => {
     //   return ionic;
     // case 'markdown':
     //   return markdown;
-    // case 'microsoft office':
-    //   return microsoftoffice;
+    case 'microsoft office':
+      return microsoftoffice;
     // case 'picsart':
     //   return picsart;
     // case 'sketch':

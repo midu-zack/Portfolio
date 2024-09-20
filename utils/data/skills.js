@@ -4,16 +4,22 @@ export const skillsData = [
   'Javascript',
   'React',
   'Tailwind',
-  'NodeJs',
+  // 'Node JS',
   'MongoDB',
   'Vercel',
   'Git',
   'AWS',
+  // 'canva',
   // 'express',
+  'Microsoft Office',
+  'Firebase',
   'Bootstrap',
   'Figma',
   'MaterialUI',
   'Nginx',
+   'Wordpress',
+   'Photoshop',
+   'Angular'
    
 ]
 
